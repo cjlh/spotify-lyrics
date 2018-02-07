@@ -5,12 +5,15 @@ A Python script that displays the lyrics to your current Spotify track in your t
 ![Screenshot](./screenshots/1.png "Screenshot")
 
 
-### Prerequisites
+## Getting started
+
+
+### Prerequisits
 
 This script requires Python 3.
 
 
-### Getting started
+### Installation and use
 
 1. Save spotify-lyrics.py to a location of your choice (this is where you will run the script from):
 ```
@@ -45,5 +48,4 @@ $ spotify-lyrics
 This project is licensed under the MIT License.
 
 ***
-
 [https://github.com/cjlh/spotify-lyrics](https://github.com/cjlh/spotify-lyrics)
