@@ -5,7 +5,7 @@
 File name: spotify-lyrics.py
 Author: Caleb Hamilton
 Website: https://github.com/cjlh/spotify-lyrics
-License: GNU GPLv3
+License: MIT
 Python version: 3
 
 Usage:
