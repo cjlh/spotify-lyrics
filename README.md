@@ -1,12 +1,45 @@
 # spotify-lyrics
 
-A Python script for displaying the lyrics of Spotify's current playing song in the Linux terminal
+A Python script that displays the lyrics to your current Spotify track in your terminal.
 
 ![Screenshot](./screenshots/1.png "Screenshot")
 
-## How to use
-2. Place `spotify-lyrics.py` in a directory of your choice
-1. Run `python3 spotify-lyrics.py` from the same directory
+### Prerequisites
+
+This script requires Python 3.
+
+### Getting started
+
+Save spotify-lyrics.py to a location of your choice (this is where you will run the script from):
+```
+$ wget https://raw.githubusercontent.com/cjlh/spotify-lyrics/master/spotify-lyrics.py
+```
+
+*(Optional)* Set an alias in your shell for quick use. Examples:
+
+bash (\~/.bashrc) and zsh (\~/.zshrc):
+```
+alias spotify-lyrics="python /path/to/spotify-lyrics.py"
+```
+
+fish (\~/.config/fish/config.fish):
+```
+alias spotify-lyrics "python /path/to/spotify-lyrics.py"
+```
+
+Run the script whilst playing music in Spotify -- the lyrics will automatically display as the song changes:
+```
+$ python /path/to/spotify-lyrics.py
+```
+
+Or if an alias is set:
+```
+$ spotify-lyrics
+```
+
+## License
+
+This project is licensed under the MIT License.
 
 ***
 
