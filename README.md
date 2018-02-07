@@ -1,6 +1,6 @@
 # spotify-lyrics
 
-A Python script that displays the lyrics to your current Spotify track in your terminal.
+A Python script that displays the lyrics to the currently playing song on Spotify in your terminal.
 
 ![Screenshot](./screenshots/1.png "Screenshot")
 
