@@ -8,7 +8,7 @@ A Python script that displays the lyrics to your current Spotify track in your t
 ## Getting started
 
 
-### Prerequisits
+### Dependencies
 
 This script requires Python 3.
 
