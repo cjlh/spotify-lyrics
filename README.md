@@ -19,27 +19,13 @@ This script requires Python 3.
     $ wget https://raw.githubusercontent.com/cjlh/spotify-lyrics/master/spotify-lyrics.py
     ```
 
-2. *(Optional)* Set an alias in your shell for quick use. Examples:
-
-   bash (\~/.bashrc) and zsh (\~/.zshrc):
-
-    ```
-    alias spotify-lyrics="python /path/to/spotify-lyrics.py"
-    ```
-
-   fish (\~/.config/fish/config.fish):
-
-    ```
-    alias spotify-lyrics "python /path/to/spotify-lyrics.py"
-    ```
-
-3. Run the script whilst playing music in Spotify -- the lyrics will automatically display as the song changes:
+2. Run the script whilst playing music in Spotify -- the lyrics will automatically display as the song changes:
 
     ```
     $ python /path/to/spotify-lyrics.py
     ```
 
-   Or if an alias is set:
+    Or if the script was saved to `/usr/bin`:
 
     ```
     $ spotify-lyrics
