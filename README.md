@@ -9,7 +9,7 @@ A Python script that displays the lyrics to the currently playing song on Spotif
 
 ### Dependencies
 
-This script requires Python 3.
+This script requires Python 3, requests and BeautifulSoup4
 
 ### Installation and use
 
