@@ -30,7 +30,8 @@ This script requires Python 3, requests and BeautifulSoup4
     ```
     $ spotify-lyrics
     ```
-    You can choose a specific lyrics provider to fetch lyrics. Use --help to see all providers available.
+
+    You can use the `--lyrics-provider` argument choose to a specific lyrics provider to fetch lyrics with. Use `--help` to see all available providers.
     ```
     $ spotify-lyrics --lyrics-provider=<LYRICS_PROVIDER>
     ```
