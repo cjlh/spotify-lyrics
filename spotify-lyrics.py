@@ -57,18 +57,16 @@ def letras_mus_provider(artist, title):
 
     if not lyric_box:
         return ""
-
-    lyric_box = str(lyric_box)
     
-    return lyric_box.replace('<div class="cnt-letra p402_premium">', "") \
-                    .replace("</div>", "") \
-                    .replace("<br/>", "\n") \
-                    .replace("</br>", "\n") \
-                    .replace("<br>", "\n") \
-                    .replace("</br>", "\n") \
-                    .replace("</p><p>", "\n\n") \
-                    .replace("</p>", "") \
-                    .replace("<p>", "").strip()
+    return str(lyric_box).replace('<div class="cnt-letra p402_premium">', "") \
+                         .replace("</div>", "") \
+                         .replace("<br/>", "\n") \
+                         .replace("</br>", "\n") \
+                         .replace("<br>", "\n") \
+                         .replace("</br>", "\n") \
+                         .replace("</p><p>", "\n\n") \
+                         .replace("</p>", "") \
+                         .replace("<p>", "").strip()
 
 
 def make_it_personal_provider(artist, title):
@@ -147,7 +145,7 @@ PROVIDERS = {
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--lyrics-provider", help="Lyrics Provider", choices=PROVIDERS.keys(),
+        "--lyrics-provider", help="Lyrics Provider", choices=PROVIDERS.keys()
     )
     args = parser.parse_args()
 
